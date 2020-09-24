@@ -1,0 +1,49 @@
+.paragraph{
+	font-family: 'Jet Set';
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	animation: bgcolor infinite 20s;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Jet Set';
+	font-size: 5em;
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	text-align: top left;
+	
+	
+}
+@keyframes bgcolor{
+	0%
+	{
+		background:#e74c3c ;
+	}
+	20%
+	{
+		background:#2ecc71 ;
+	}
+	40%
+	{
+		background:#3498db ;
+	}
+	60%
+	{
+		background:#f1c40f ;
+	}
+	80%
+	{
+		background:#9b59b6 ;
+	}
+	100%
+	{
+		background:#1abc9c ;
+	}
+}
